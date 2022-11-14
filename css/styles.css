@@ -103,7 +103,7 @@ a {
 .info-images {
     display: flex;
     justify-content: center;
-    border-bottom: 100px;
+    padding-bottom: 100px;
     gap: 48px;
 }
 .info-image {
@@ -122,4 +122,25 @@ a {
     font-weight: normal;
     color: lightslategrey;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 350px;
+}
+.quote-content {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-source {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-self: flex-end;
 }
