@@ -54,6 +54,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 32px;
     padding: 100px 200px;
 }
 .left {
@@ -78,16 +79,18 @@ a {
 #hero-img {
     height: 250px;
 }
-.sign-up {
+.sign-up-btn {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     color: #E5E7EB;
     background-color: #3882F6;
     text-align: center;
     padding: 8px 32px;
     border: 0;
     border-radius: 8px;
+    max-width: 128px;
+    max-height: 40px;
 }
 
 .info-title {
@@ -143,4 +146,42 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.sign-up {
+    padding: 80px 200px;
+}
+.sign-up-content {
+    background-color: #3882F6;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-up-left {
+    flex: auto;
+    padding: 0 0 0 70px;
+}
+.sign-up-title {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+.sign-up-text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+.sign-up-right {
+    flex: auto;
+    display: flex;
+    align-items: center;
+}
+.sign-up-btn.white-border {
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
 }
